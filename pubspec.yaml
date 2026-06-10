@@ -1,0 +1,73 @@
+name: agapay_rescuers
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+  firebase_messaging: ^16.1.0
+  flutter_local_notifications: ^19.5.0
+  google_fonts: ^7.0.0
+  image_picker: ^1.2.1
+  uuid: ^4.2.0
+  record: ^6.1.2
+  audioplayers: ^6.5.1
+  video_player: ^2.9.1
+  url_launcher: ^6.3.1
+  google_maps_flutter: ^2.6.1
+  geolocator: ^12.0.0
+  geocoding: ^2.1.1
+  shared_preferences: ^2.2.3
+  equatable: ^2.0.5
+  firebase_database: ^12.1.2
+  flutter_blue_plus: ^1.36.3
+  permission_handler: ^12.0.0
+  connectivity_plus: ^6.1.0
+  flutter_compass: ^0.8.0
+  flutter_svg: ^2.0.10+1
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/markers/earthquakeMarker.png
+    - assets/markers/fireMarker.png
+    - assets/markers/landslideMarker.png
+    - assets/markers/medicalMarker.png
+    - assets/markers/policeMarker.png
+    - assets/markers/tsunamiMarker.png
+    - assets/markers/typhoonMarker.png
+    - assets/markers/volcanMarker.png
+    - assets/sounds/incident_sound.mp3
+    - assets/icons/archiveIcon.svg
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/resLogo.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/resLogo.png"
+  windows:
+    generate: true
+    image_path: "assets/images/resLogo.png"
+  macos:
+    generate: true
+    image_path: "assets/images/resLogo.png"
+    

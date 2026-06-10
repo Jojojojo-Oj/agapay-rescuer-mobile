@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "543856158845",
+    "firebase_url": "https://agapay-capstone-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "agapay-capstone",
+    "storage_bucket": "agapay-capstone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543856158845:android:c92fd38fcfeb559341e914",
+        "android_client_info": {
+          "package_name": "com.example.agapay_rescuers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8gDNWax8ouTekDoq8DFqU0gNOeFaiQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543856158845:android:79ccbfc7f6c186c241e914",
+        "android_client_info": {
+          "package_name": "com.example.agapay_users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8gDNWax8ouTekDoq8DFqU0gNOeFaiQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
